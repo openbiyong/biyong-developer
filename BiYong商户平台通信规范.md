@@ -1,6 +1,16 @@
-# BiYong商户平台接入文档
+# BiYong商户平台通信规范
 
-## 1. 调用说明
+## 商户平台升级
+
+商户平台升级后，每个商户可以创建多个App。
+
+请求头中的 MerchantId 字段变更为 AppId 字段。MerchantId 字段兼容旧版字段仍然可以使用。
+
+## SDK
+
+JAVA https://github.com/openbiyong/biyong-open-api-java
+
+## 通信规范
 
 所有接口调用均采用 https post
 
@@ -9,7 +19,7 @@
 |key|value|备注|
 |---|---|---|
 |Content-Type|application/json|传参格式为JSON
-|MerchantId|d4743d2bd449468383a5417efa423541|商户ID|
+|AppId|d4743d2bd449468383a5417efa423541|AppID|
 
 ### 1. 发送 Request
 
