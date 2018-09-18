@@ -1,4 +1,4 @@
-# 币用商户平台接口文档
+# BiYong商户平台接口文档
 
 ## 1. BiYong用户相关接口
 
@@ -17,6 +17,7 @@
     {
       "authList": [   // 用户授予的权限列表
         "PUBLIC_INFO",// 查看公开信息(昵称、头像等)权限
+        "PHONE",      // 查看手机号权限
         "BALANCE"     // 查看资金流水权限
       ],
       "openId":"9bd0fda7d0dad3411fed9c488bd4b8a7"
@@ -55,6 +56,8 @@
       "lastName":"Due",           // 如果 pubInfoAuth 为 false，此字段不返回
       "selfieUrl":"http://..."    // 用户头像链接，如果 pubInfoAuth 为 false 或用户无头像，此字段不返回
       "isKycPass":"true",         // 如果 pubInfoAuth 为 false，此字段不返回，true/false 用户是否进行了实名认证
+      "phoneAuth":"true",         // true/false 是否有查看用户手机号
+      "phone":"86-13300000000",   // 如果 phoneAuth 为 false，此字段不返回
     }
 
 
