@@ -65,7 +65,7 @@ H5-DEMO
 
 点击下载测试环境授权Demo工程（[授权App下载](https://www.pgyer.com/zngr)).<br/>
 
-[查看详细流程]()
+[查看详细流程](https://github.com/openbiyong/biyong-developer/blob/master/BiYong%E5%95%86%E6%88%B7IOS%E6%8E%A5%E5%85%A5%E6%B5%81%E7%A8%8B.md#%E8%A7%A3%E5%88%A8%E6%B5%81%E7%A8%8B%E5%9B%BE%E6%96%87%E8%AF%A6%E8%A7%A3)
 
 需求
 ==============
