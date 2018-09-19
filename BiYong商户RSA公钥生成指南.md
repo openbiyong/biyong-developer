@@ -41,6 +41,7 @@ openssl rsa -in rsa_private.key -pubout -out rsa_public.key
 将以上文件rsa_public.key，使用文本编辑器打开。
 
 假设rsa_public.key为
+
 ```
 -----BEGIN PUBLIC KEY-----
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4NSO7HUnep/TwHRcSL1L
@@ -58,6 +59,7 @@ CQIDAQAB
 -----END PUBLIC KEY-----
 
 将剩余内容拼接为一行内容。最终结果如下。
+
 ```
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4NSO7HUnep/TwHRcSL1LAIiZ9thacOa/uIeTpMiTKfMyimB91s9x96ubV0w+kO6rIAv8o1uKzDGlGSbHZXKF1vXweO3kveZc+c6ZhMjFoUtiKz4lsdi5r3D5JfXI/jZabWqGMoZ3AFxySQimiiFrGgywRYJgR5GDmgDgVF87Bb3UL1jVedA+HdtUSq3yI9QOkqvV6tiKk04DAoQ9pbQW/mm8/jjK5AVNIBLGHseJg7ojoOahokl9tW37k1IGvX/JAiR8yplUrwEwt26fcM2tImlfw2fsp8UJWKf5QzqyFDdbwvNxM25YOqPJ8RocSRpkMhAwIxmY1IK1l7/CACS+CQIDAQAB
 ```
