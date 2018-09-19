@@ -40,7 +40,7 @@ openssl rsa -in rsa_private.key -pubout -out rsa_public.key
 
 将以上文件rsa_public.key，使用文本编辑器打开。
 
-假设rsa_public.key为以下内容。
+假设rsa_public.key内容如下。
 
 ```
 -----BEGIN PUBLIC KEY-----
