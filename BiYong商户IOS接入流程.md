@@ -1,0 +1,80 @@
+BiYong IOS 商户介入流程
+==============
+
+[BiYong 官网](https://www.biyong.sg)&nbsp;
+
+
+接入前需要了解的关键词:
+
+* [scheme](https://www.biyong.sg) — 唤起授权的一种协议方式。
+* [encodeURIComponent](https://www.biyong.sg) — 一种编码方式。
+* [token](https://www.biyong.sg) — 商户品台的登录态。
+* [biytoken](https://www.biyong.sg) — 获取BiYong授权后的登录态。
+* [merchantid](https://www.biyong.sg) — 商户在BiYong授权平台申请的商户ID。
+
+整体授权流程图
+==============
+看 `图`
+
+<img src="https://i.postimg.cc/LsZxj8gf/5ae1731ee4b04f3db58434a0.png" width="320"><br/>
+
+
+关键词解释
+==============
+
+### token
+
+```
+商户自己的登录态token
+Tips:当生成此token 请务必保存一份到BiYong 服务端
+```
+
+### biytoken
+
+```
+授权BiYong 登录态token
+```
+
+### merchantid
+
+```
+商户在BiYong 平台的商户id
+Tips:授权成功后，会在回调的url上增加biytoken参数，拿到此参数，请换取用户的open_id 
+```
+
+### scheme协议
+
+1：url 需要授权成功后吊起的商户平台的URL <br>
+2：merchantid 自然是商户在BiYong平台申请的商户id
+
+```
+biyong://authorApp?url=xxx&merchantid=xxx
+
+发起授权请求需要执行此协议
+
+```
+
+H5-DEMO
+==============
+
+
+
+授权测试环境Demo
+==============
+我们含有测试环境的授权流程demo，便于开发过程中使用<br/>
+
+点击下载测试环境授权Demo工程（[授权App下载](https://www.pgyer.com/zngr)).<br/>
+
+
+需求
+==============
+App `iOS 10.0+` and `Xcode 8.0+`.
+
+<br/><br/>
+
+解刨流程（图文详解）
+==============
+
+
+
+
