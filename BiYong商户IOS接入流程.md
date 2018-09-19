@@ -6,7 +6,7 @@ BiYong IOS 商户介入流程
 
 接入前需要了解的关键词:
 
-* [scheme](https://github.com/openbiyong/biyong-developer/blob/master/BiYong%E5%95%86%E6%88%B7IOS%E6%8E%A5%E5%85%A5%E6%B5%81%E7%A8%8B.md#scheme) — 唤起授权的一种协议方式。
+* [scheme](https://github.com/openbiyong/biyong-developer/blob/master/BiYong%E5%95%86%E6%88%B7IOS%E6%8E%A5%E5%85%A5%E6%B5%81%E7%A8%8B.md#scheme%E5%8D%8F%E8%AE%AE) — 唤起授权的一种协议方式。
 * [encodeURIComponent](https://www.biyong.sg) — 一种编码方式。
 * [token](https://github.com/openbiyong/biyong-developer/blob/master/BiYong%E5%95%86%E6%88%B7IOS%E6%8E%A5%E5%85%A5%E6%B5%81%E7%A8%8B.md#token) — 商户品台的登录态。
 * [biytoken](https://github.com/openbiyong/biyong-developer/blob/master/BiYong%E5%95%86%E6%88%B7IOS%E6%8E%A5%E5%85%A5%E6%B5%81%E7%A8%8B.md#biytoken) — 获取BiYong授权后的登录态。
