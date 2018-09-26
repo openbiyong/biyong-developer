@@ -75,7 +75,8 @@ App `iOS 10.0+` and `Xcode 8.0+`.
 
 解刨流程（图文详解）
 ==============
-
+<img src="https://i.postimg.cc/R0QhFW87/Wechat_IMG145.jpg"><br/>
+<img src="https://i.postimg.cc/Jzj46yRf/Wechat_IMG146.png"><br/>
 
 线上测试流程
 ==============
