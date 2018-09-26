@@ -16,7 +16,7 @@ BiYong IOS 商户介入流程
 ==============
 看 `图`
 
-<img src="https://i.postimg.cc/LsZxj8gf/5ae1731ee4b04f3db58434a0.png" width="320"><br/>
+<img src="https://i.postimg.cc/LsZxj8gf/5ae1731ee4b04f3db58434a0.png"><br/>
 
 
 关键词解释
