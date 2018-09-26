@@ -75,7 +75,10 @@ App `iOS 10.0+` and `Xcode 8.0+`.
 
 解刨流程（图文详解）
 ==============
+- 扫描二维码安装app 并启动App
 <img src="https://i.postimg.cc/R0QhFW87/Wechat_IMG145.jpg"><br/>
+1: 第一个输入框:请输入授权成功后回调的url（授权成功会包含biytoken）（测试环境） 
+2: 第二个输入框:填写在BiYong平台申请的key（测试环境） 
 <img src="https://i.postimg.cc/Jzj46yRf/Wechat_IMG146.png"><br/>
 
 线上测试流程
