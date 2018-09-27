@@ -57,6 +57,10 @@ biyong://authorApp?url=xxx&merchantid=xxx
 H5-DEMO
 ==============
 
+http://authortest.btcchat.io/authorH5.html<br/>
+
+<img src="https://i.postimg.cc/MpSw0k1J/Wechat_IMG152.png"><br/>
+
 
 
 授权测试环境Demo
