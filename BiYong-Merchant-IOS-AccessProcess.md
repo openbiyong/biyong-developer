@@ -1,4 +1,4 @@
-BiYong IOS 商户介入流程
+BiYong iOS 商户介入流程
 ==============
 
 [BiYong 官网](https://www.biyong.sg)&nbsp;
