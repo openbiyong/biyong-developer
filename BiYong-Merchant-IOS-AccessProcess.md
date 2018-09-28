@@ -77,7 +77,7 @@ App `iOS 10.0+` and `Xcode 8.0+`.
 
 <br/><br/>
 
-解刨流程（图文详解）
+解说流程（图文详解）
 ==============
 - 启动App <br/>
 <img src="http://thyrsi.com/t6/377/1538122755x1822611383.png"><br/>
@@ -90,6 +90,12 @@ App `iOS 10.0+` and `Xcode 8.0+`.
 <img src="http://thyrsi.com/t6/377/1538122889x1822611383.png"><br/>
 - 发起授权，会打开新的Url，并且带biytoken，让商户获取平台openid <br/>
 <img src="http://thyrsi.com/t6/377/1538122918x1822611383.png"><br/>
+<br/>
+<br/>
+<br/>
+- gif <br/>
+<img src="http://thyrsi.com/t6/377/1538122918x1822611383.png"><br/>
+
 
 线上测试流程
 ==============
