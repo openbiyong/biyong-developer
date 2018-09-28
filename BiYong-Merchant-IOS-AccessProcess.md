@@ -94,7 +94,7 @@ App `iOS 10.0+` and `Xcode 8.0+`.
 <br/>
 <br/>
 - gif <br/>
-<img src="http://thyrsi.com/t6/377/1538122918x1822611383.png"><br/>
+<img src="https://i.screenshot.net/0g61vhp"><br/>
 
 
 线上测试流程
