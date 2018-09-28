@@ -100,11 +100,11 @@ App `iOS 10.0+` and `Xcode 8.0+`.
 线上测试流程
 ==============
 -- 以线上已发布App 做线上操作实现<br/>
-1: 下载BiYong App，并成功登陆进去，且登陆钱包
-2: 然说是打开Safair,输入你的Url
-3: 然后会启动授权，会唤起BiYong App ，请选择允许。
-4: 进入App 内开启授权，点击授权
-5: 授权成功后，会带着biytoken，打开你的URL
+1: 下载BiYong App，并成功登陆进去，且登陆钱包<br/>
+2: 然说是打开Safair,输入你的Url<br/>
+3: 然后会启动授权，会唤起BiYong App ，请选择允许。<br/>
+4: 进入App 内开启授权，点击授权<br/>
+5: 授权成功后，会带着biytoken，打开你的URL<br/><br/><br/>
 <img src="http://thyrsi.com/t6/377/1538126582x1822611359.gif"><br/>
 
 
