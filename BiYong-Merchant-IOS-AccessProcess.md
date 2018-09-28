@@ -80,15 +80,16 @@ App `iOS 10.0+` and `Xcode 8.0+`.
 解刨流程（图文详解）
 ==============
 - 启动App <br/>
-<img src="https://i.postimg.cc/R0QhFW87/Wechat_IMG145.jpg"><br/>
-- 不填写信息，会直接走BiYong测试商户授权流程 <br/>
-<img src="https://i.postimg.cc/d0chTSVh/2018-09-27_7.00.28.png"><br/>
-- demoJS <br/>
-<img src="https://i.postimg.cc/bJB81s9m/2018-09-27_7.00.36.png"><br/>
+<img src="http://thyrsi.com/t6/377/1538122755x1822611383.png"><br/>
+- 扫码获取测试用户token <br/>
+<img src="http://thyrsi.com/t6/377/1538122800x1822611383.png"><br/>
+<img src="http://thyrsi.com/t6/377/1538122838x1822611383.png"><br/>
+- 不填写信息，会直接走BiYong测试商户授权流程 demoJS<br/>
+<img src="http://thyrsi.com/t6/377/1538122865x1822611383.png"><br/>
 - 获取授权信息 <br/>
-<img src="https://i.postimg.cc/k46M1Q40/2018-09-27_7.00.39.png"><br/>
+<img src="http://thyrsi.com/t6/377/1538122889x1822611383.png"><br/>
 - 发起授权，会打开新的Url，并且带biytoken，让商户获取平台openid <br/>
-<img src="https://i.postimg.cc/HLJCdpg5/2018-09-27_7.00.43.png"><br/>
+<img src="http://thyrsi.com/t6/377/1538122918x1822611383.png"><br/>
 
 线上测试流程
 ==============
