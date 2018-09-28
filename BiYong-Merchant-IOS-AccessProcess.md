@@ -80,16 +80,16 @@ App `iOS 10.0+` and `Xcode 8.0+`.
 解说流程（图文详解）
 ==============
 - 启动App <br/>
-<img src="http://thyrsi.com/t6/377/1538122755x1822611383.png"><br/>
+<img src="http://thyrsi.com/t6/377/1538122755x1822611383.png" width="357" height="736"><br/>
 - 扫码获取测试用户token <br/>
-<img src="http://thyrsi.com/t6/377/1538122800x1822611383.png"><br/>
-<img src="http://thyrsi.com/t6/377/1538122838x1822611383.png"><br/>
+<img src="http://thyrsi.com/t6/377/1538122800x1822611383.png" width="357" height="736"><br/>
+<img src="http://thyrsi.com/t6/377/1538122838x1822611383.png" width="357" height="736"><br/>
 - 不填写信息，会直接走BiYong测试商户授权流程 demoJS<br/>
-<img src="http://thyrsi.com/t6/377/1538122865x1822611383.png"><br/>
+<img src="http://thyrsi.com/t6/377/1538122865x1822611383.png" width="357" height="736"><br/>
 - 获取授权信息 <br/>
-<img src="http://thyrsi.com/t6/377/1538122889x1822611383.png"><br/>
+<img src="http://thyrsi.com/t6/377/1538122889x1822611383.png" width="357" height="736"><br/>
 - 发起授权，会打开新的Url，并且带biytoken，让商户获取平台openid <br/>
-<img src="http://thyrsi.com/t6/377/1538122918x1822611383.png"><br/>
+<img src="http://thyrsi.com/t6/377/1538122918x1822611383.png" width="357" height="736"><br/>
 <br/>
 <br/>
 <br/>
@@ -99,6 +99,14 @@ App `iOS 10.0+` and `Xcode 8.0+`.
 
 线上测试流程
 ==============
+-- 以线上已发布App 做线上操作实现<br/>
+1: 下载BiYong App，并成功登陆进去，且登陆钱包
+2: 然说是打开Safair,输入你的Url
+3: 然后会启动授权，会唤起BiYong App ，请选择允许。
+4: 进入App 内开启授权，点击授权
+5: 授权成功后，会带着biytoken，打开你的URL
+<img src="http://thyrsi.com/t6/377/1538126582x1822611359.gif"><br/>
+
 
 
 
