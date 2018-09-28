@@ -94,7 +94,7 @@ App `iOS 10.0+` and `Xcode 8.0+`.
 <br/>
 <br/>
 - gif <br/>
-<img src="http://thyrsi.com/t6/377/1538124606x-1566688526.gif"><br/>
+<img style="-webkit-user-select: none;cursor: zoom-in;" src="http://thyrsi.com/t6/377/1538124606x-1566688526.gif"><br/>
 
 
 线上测试流程
@@ -105,7 +105,7 @@ App `iOS 10.0+` and `Xcode 8.0+`.
 3: 然后会启动授权，会唤起BiYong App ，请选择允许。<br/>
 4: 进入App 内开启授权，点击授权<br/>
 5: 授权成功后，会带着biytoken，打开你的URL<br/><br/><br/>
-<img src="http://thyrsi.com/t6/377/1538126582x1822611359.gif"><br/>
+<img style="-webkit-user-select: none;cursor: zoom-in;" src="http://thyrsi.com/t6/377/1538126582x1822611359.gif"><br/>
 
 
 
