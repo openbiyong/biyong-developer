@@ -82,7 +82,7 @@ App `Android 4.4+`
 - 启动App <br/>
 <img src="https://i.postimg.cc/KY5BYsQS/Wechat_IMG2.png"><br/>
 - 不填写信息，会直接走BiYong测试商户授权流程 <br/>
-<img src="https://i.postimg.cc/N0L2gfyT/Wechat_IMG3.png"><br/>
+<img src="https://i.postimg.cc/Ghr6PGKL/Wechat_IMG8.png"><br/>
 - demoJS <br/>
 <img src="https://i.postimg.cc/wvQpZD6k/Wechat_IMG4.png"><br/>
 - 获取授权信息 <br/>
