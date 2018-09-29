@@ -111,7 +111,23 @@
 
 ## 2. 其它接口
 
-### 1. BiYong支持的代币列表查询
+### 1. 通信测试接口
+
+> /common/test
+
+请求参数:
+
+    {
+      "message":"Hello, BiYong"
+    }
+
+返回data:
+
+    {
+      "message":"Hello, Merchant"
+    }
+
+### 2. BiYong支持的代币列表查询
 
 > /common/token-info/page
 
