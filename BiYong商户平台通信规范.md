@@ -8,7 +8,7 @@
 
 ## SDK
 
-JAVA https://github.com/openbiyong/biyong-open-api-java
+[JAVA SDK](https://github.com/openbiyong/biyong-open-api-java)
 
 ## 通信规范
 

@@ -29,7 +29,7 @@
 请求参数:
 
     {
-      "authToken":"EuQkJ3mx4kinvHLFR3DPQ15SjVyh9" // 必填 授权临时token
+      "authToken":"EuQkJ3mx4kinvHLFR3DPQ15SjVyh9" // 必填 授权临时biytoken
     }
 
 返回data:
@@ -40,7 +40,10 @@
         "PHONE",      // 查看手机号权限
         "BALANCE"     // 查看资金流水权限
       ],
-      "openId":"9bd0fda7d0dad3411fed9c488bd4b8a7"
+      "openId":"9bd0fda7d0dad3411fed9c488bd4b8a7",
+      "userInfo" : {
+        // 与 /biyong-user/info 接口返回 data 相同
+      }
     }
 
 ### 2. 上传用户token
@@ -277,13 +280,13 @@
 |USER_PAYING|用户支付中|
 |USER_PAY_SUCCESS|用户已成功支付|
 |EXPIRE|无用户支付，订单超时|
-|MERCHANT_CLOSE|商户主动关闭订单|
-|REFUNDING|退款中|
+|MERCHANT_CLOSE|商户主动关闭订单，只有DEFAULT状态订单才可以关闭|
+|REFUNDING|退款中，USER_PAY_SUCCESS状态订单可以发起退款|
 |REFUND_SUCCESS|退款成功|
 |MERCHANT_CLOSE|商户主动关闭订单|
-|SETTLING|结算中|
+|SETTLING|结算中，USER_PAY_SUCCESS支付成功状态的订单在满足结算周期后会进行结算|
 |SETTLED|结算完毕|
-|SETTLED_REFUNDING|退款中(已结算订单)|
+|SETTLED_REFUNDING|退款中(已结算订单发起退款)|
 |SETTLED_REFUND_SUCCESS|退款成功(已结算订单)|
 
 
