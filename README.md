@@ -13,6 +13,6 @@
 - 安卓 Demo App 扫码下载<br>
   <img src="https://raw.githubusercontent.com/openbiyong/biyong-developer/master/images/qr-android_demo.png">
 <br>
-<br>
+
 - iOS Demo App 扫码下载<br>
   <img src="https://raw.githubusercontent.com/openbiyong/biyong-developer/master/images/qr-iOS_demo.png">
