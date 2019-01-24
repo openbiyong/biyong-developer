@@ -9,11 +9,10 @@
  3. 安装BiYong开发环境DemoApp [安卓](https://www.biyong.sg/merchant/app-auth.apk)/[苹果](https://www.pgyer.com/zngr)
  4. 仔细阅读DemoApp使用说明 [安卓](https://github.com/openbiyong/biyong-developer/blob/master/BiYong-Merchant-Android-AccessProcess.md.md)/[苹果](https://github.com/openbiyong/biyong-developer/blob/master/BiYong-Merchant-IOS-AccessProcess.md)
 
-- 安卓 Demo App 扫码下载<br>
-<img src="https://raw.githubusercontent.com/openbiyong/biyong-developer/master/images/qr-android_demo.png">
-<br>
-<br>
-<br>
 
+- 安卓 Demo App 扫码下载<br>
+  <img src="https://raw.githubusercontent.com/openbiyong/biyong-developer/master/images/qr-android_demo.png">
+<br>
+<br>
 - iOS Demo App 扫码下载<br>
-<img src="https://raw.githubusercontent.com/openbiyong/biyong-developer/master/images/qr-iOS_demo.png">
+  <img src="https://raw.githubusercontent.com/openbiyong/biyong-developer/master/images/qr-iOS_demo.png">
