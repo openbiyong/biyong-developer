@@ -1,5 +1,14 @@
 # BiYong商户平台开发者对接指引
 
+      
+- 正式环境API
+
+      https://open.biyong.sg/api
+
+- 开发环境API
+
+      https://open.biyong.sg/dev-api
+
 ---
 
 ### 快速体验测试应用
