@@ -33,7 +33,7 @@
    > <br>通过访问[上传用户token接口](https://github.com/openbiyong/biyong-developer/blob/master/BiYong商户后台接口文档.md#2-上传用户token)用户可以在 BiYong App 内保持用户的登录态，从BiYong发现页内打开商户页面url会附带此参数(token=xxx)
    > <br>后台通信成功后，前端页面可提示用户授权成功
 
-## 1. BiYong支付
+## 2. BiYong支付
 
 #### [支付流程时序图](https://www.processon.com/view/link/5c493ec5e4b0641c83e7ec07)
 
