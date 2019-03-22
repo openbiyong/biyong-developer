@@ -67,7 +67,7 @@ http://authortest.btcchat.io/authorH5.html<br/>
 ==============
 我们含有测试环境的授权流程demo，便于开发过程中使用<br/>
 
-点击下载测试环境授权Demo工程（[授权App下载](https://www.pgyer.com/zngr)).<br/>
+点击下载测试环境授权Demo工程（[授权App下载](https://www.pgyer.com/Ix0V)).<br/>
 
 [查看详细流程](https://github.com/openbiyong/biyong-developer/blob/master/BiYong-Merchant-IOS-AccessProcess.md#%E8%A7%A3%E8%AF%B4%E6%B5%81%E7%A8%8B%E5%9B%BE%E6%96%87%E8%AF%A6%E8%A7%A3)
 
