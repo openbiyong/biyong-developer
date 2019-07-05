@@ -11,7 +11,13 @@
 
 ---
 
-### 快速体验测试应用
+### 1. [BiYong前后端交互流程](https://github.com/openbiyong/biyong-developer/blob/master/BiYong前后端交互流程.md)
+
+### 2. [BiYong商户后台接口文档](https://github.com/openbiyong/biyong-developer/blob/master/BiYong商户后台接口文档.md)
+
+### 3. [BiYong商户平台通信规范](https://github.com/openbiyong/biyong-developer/blob/master/BiYong商户平台通信规范.md)
+
+### 4. 快速体验测试应用
 
  1. 登录[BiYong开放平台](https://open.biyong.sg)创建一个开发环境应用(商户必须先通过审核/[关于RSA](https://github.com/openbiyong/biyong-developer/blob/master/BiYong-RSA-Document.md))
  2. 部署[服务Demo(Html5+Java)](https://github.com/openbiyong/merchant-server-demo-java)(工程内含使用文档)
