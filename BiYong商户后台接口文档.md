@@ -213,7 +213,7 @@
         ...
       ],
       "remark" : "some remark",      // 可选 订单备注，长度128以内
-      "expireSec" : 120,             // 可选 订单超时时间，可选返回 1m ~ 120m，如果不填默认 5m
+      "expireSec" : 120,             // 可选 订单超时时间，可选范围60~7200(1m~2h)，如果不填默认300(5m)
     }
 
 返回data:
@@ -283,7 +283,6 @@
 |MERCHANT_CLOSE|商户主动关闭订单，只有DEFAULT状态订单才可以关闭|
 |REFUNDING|退款中，USER_PAY_SUCCESS状态订单可以发起退款|
 |REFUND_SUCCESS|退款成功|
-|MERCHANT_CLOSE|商户主动关闭订单|
 |SETTLING|结算中，USER_PAY_SUCCESS支付成功状态的订单在满足结算周期后会进行结算|
 |SETTLED|结算完毕|
 |SETTLED_REFUNDING|退款中(已结算订单发起退款)|
