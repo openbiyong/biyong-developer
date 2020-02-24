@@ -38,7 +38,8 @@
       "authList": [   // 用户授予的权限列表
         "PUBLIC_INFO",// 查看公开信息(昵称、头像等)权限
         "PHONE",      // 查看手机号权限
-        "BALANCE"     // 查看资金流水权限
+        "BALANCE",    // 查看资金流水权限
+        "ADDRESS",    // 查看查看用户充值地址权限
       ],
       "openId":"9bd0fda7d0dad3411fed9c488bd4b8a7",
       "userInfo" : {
@@ -112,6 +113,27 @@
       ]
     }
 
+### 5. 获取用户充值地址
+
+> /biyong-user/address
+
+请求参数:
+
+    {
+      "openId":"387f6d41e60449cb84c8587b1d6d4104", // 必填 用户openId
+      "coinName":"GRAM",                           // 必填 代币BiYong内部代码（内部代码不会更改，显示名称可能更改）
+    }
+
+返回data:
+
+    {
+      "address" : "0xabcdef......",               // 地址
+      "chainName" : "ethereum",                   // 主链类型
+      "coinDisplayName" : "ETH",                  // 代币BiYong显示名称
+      "projectName": "Ethereum",                  // 项目名称
+      "isDepositOpen": true/false                 // 是否开放转入
+    }
+    
 ## 2. 其它接口
 
 ### 1. 通信测试接口
@@ -147,9 +169,35 @@
       "total":123, // 总条数
       "records" : [
         {
-          "symbol":"ACT",          // 代币BiYong内部代码
-          "name":"ACT",            // 代币名称
+          "symbol":"ACT",          // 代币BiYong内部代码（内部代码不会更改，显示名称可能更改）
+          "name":"ACT",            // 代币显示名称
           "projectName":"Achain",  // 代币项目名称
+        },
+        ...(more records)...
+      ]
+    }
+
+v2统一了字段名
+
+> /common/token-info/page/v2
+
+请求参数:
+
+    {
+      "pageNo":"0",                                // 必填 页码，从0计数
+      "pageSize":"100",                            // 必填 每页条数，最大1000
+    }
+
+返回data:
+
+    {
+      "total":123, // 总条数
+      "records" : [
+        {
+          "coinName":"ETH",          // 代币BiYong内部代码（内部代码不会更改，显示名称可能更改）
+          "coinDisplayName":"ETH",   // 代币显示名称
+          "chainName":"ethereum",    // 主链名称
+          "projectName":"Ethereum",  // 代币项目名称
         },
         ...(more records)...
       ]
