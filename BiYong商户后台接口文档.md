@@ -134,6 +134,49 @@
       "isDepositOpen": true/false                 // 是否开放转入
     }
     
+    
+    
+### 6. 获取用户资产余额
+
+> /biyong-user/balance/coin
+
+请求参数:
+
+    {
+      "openId":"387f6d41e60449cb84c8587b1d6d4104", // 必填 用户openId
+      "coinName":"GRAM",                           // 必填 代币BiYong内部代码（内部代码不会更改，显示名称可能更改）
+    }
+
+返回data:
+
+    {
+      "coinName" : "ETH",
+      "balance": 10.0001,
+    }
+    
+### 5. 获取用户充值地址
+
+> /biyong-user/balance/coin/list
+
+请求参数:
+
+    {
+      "openId":"387f6d41e60449cb84c8587b1d6d4104", // 必填 用户openId
+    }
+
+返回data:
+
+    [
+        {
+          "coinName" : "ETH",
+          "balance": 10.00001,
+        },
+        {
+          "coinName" : "USDT",
+          "balance": 10.00001,
+        }
+    ]
+    
 ## 2. 其它接口
 
 ### 1. 通信测试接口
