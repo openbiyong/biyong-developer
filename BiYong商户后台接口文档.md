@@ -154,7 +154,7 @@
       "balance": 10.0001,
     }
     
-### 5. 获取用户充值地址
+### 7. 获取用户资产余额列表
 
 > /biyong-user/balance/coin/list
 
